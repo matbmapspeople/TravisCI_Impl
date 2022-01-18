@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "lint": "eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "jest": "^27.4.7",
+    "lint": "^0.7.0",
     "travis.yml": "^2.0.1"
   },
   "devDependencies": {
