@@ -1,9 +1,7 @@
-language: bash 
+language: node_js
 
-sudo: required
-
-services:
-
+before_install:
+  - npm i -g npm
 
 script:
 - echo "hello world"

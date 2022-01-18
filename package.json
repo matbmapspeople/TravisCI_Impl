@@ -1,0 +1,22 @@
+{
+  "name": "travisci_impl",
+  "version": "1.0.0",
+  "description": "Travis Implementation for Examination",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszbanaszak5303/TravisCI_Impl.git"
+  },
+  "author": "Mateusz Banaszak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuszbanaszak5303/TravisCI_Impl/issues"
+  },
+  "homepage": "https://github.com/mateuszbanaszak5303/TravisCI_Impl#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
