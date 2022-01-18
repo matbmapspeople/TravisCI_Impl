@@ -4,7 +4,7 @@
   "description": "Travis Implementation for Examination",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mateuszbanaszak5303/TravisCI_Impl#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "travis.yml": "^2.0.1"
   }
 }
