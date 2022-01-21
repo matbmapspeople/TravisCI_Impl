@@ -9,4 +9,5 @@ script:
 - npm run test
 
 notifications:
-email: false
+  email: false
+  slack: examinationgroup:FuqgTJO8oBOSwG6LPy3jyczZ

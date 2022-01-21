@@ -20,12 +20,12 @@
   "homepage": "https://github.com/mateuszbanaszak5303/TravisCI_Impl#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "jest": "^27.4.7",
     "lint": "^0.7.0",
     "travis.yml": "^2.0.1"
   },
   "devDependencies": {
     "coveralls": "^3.1.1",
+    "jest": "^27.4.7",
     "ts-node": "^10.4.0"
   }
 }
