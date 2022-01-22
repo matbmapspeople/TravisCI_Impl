@@ -9,4 +9,6 @@ script:
 - npm run test
 
 notifications:
-email: false
+email:
+  recipients:
+   - mateusz.banaszak5303@gmail.com
