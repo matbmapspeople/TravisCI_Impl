@@ -13,6 +13,8 @@ notifications:
     recipients:  
     - mateusz.banaszak5303@gmail.com
     - iwenderska99@wp.pl
+    - 1085841@ucn.dk
+    
     on_success: always  
     on_failure: always
   # slack: examinationgroup:FuqgTJO8oBOSwG6LPy3jyczZ
