@@ -9,7 +9,5 @@ script:
 - npm run test
 
 notifications:
-  email:
-    recipients:
-     - mateusz.banaszak5303@gmail.com
+  email: true
   # slack: examinationgroup:FuqgTJO8oBOSwG6LPy3jyczZ
