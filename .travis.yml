@@ -8,7 +8,9 @@ node_js:
 script:
 - npm run test
 
-notifications:
-email:
-  recipients:
-   - mateusz.banaszak5303@gmail.com
+notifications:  
+  email:  
+    recipients:  
+    - mateusz.banaszak5303@gmail.com  
+    on_success: always  
+    on_failure: always
