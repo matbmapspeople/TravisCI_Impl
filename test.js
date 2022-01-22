@@ -28,6 +28,6 @@ describe("Sum test", () => {
 })
 
 describe("Multiplication test" , () => {
-  test('By multypling 5,154 and 678,1223 we should get 3.495,0423342', ()=> {
+  test('By multypling 5 and 678 we should get 3390', ()=> {
     expect(mathOperations.mult(5, 678)).toBe(3390)
 })});
