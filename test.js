@@ -32,21 +32,3 @@ describe("Multiplication test", () => {
     expect(mathOperations.mult(5, 678)).toBe(3390)
   })
 });
-
-describe("Diff test", () => {
-  test('By 2 minu 1 I shopuld get 1', () => {
-    expect(mathOperations.diff(2,1)).toBe(1)
-  })
-})
-
-describe("Diff test 2", () => {
-  test('By 3 minu 1 I shopuld get 2', () => {
-    expect(mathOperations.diff(3,1)).toBe(2)
-  })
-})
-
-describe("Diff test qweqw", () => {
-  test('By 4 minus 1 I shopuld get 3', () => {
-    expect(mathOperations.diff(4,1)).toBe(3)
-  })
-})
