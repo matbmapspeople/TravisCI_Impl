@@ -31,3 +31,9 @@ describe("Multiplication test" , () => {
   test('By multypling 5 and 678 we should get 3390', ()=> {
     expect(mathOperations.mult(5, 678)).toBe(3390)
 })});
+
+descibe("Difference test" , () => {
+  test('5 - 2 should be 3', () => {
+    expect(mathOperations.diff(5, 2)).toBe(3)
+  })
+});
