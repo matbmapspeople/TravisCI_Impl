@@ -13,6 +13,7 @@ notifications:
     recipients:  
     - mateusz.banaszak5303@gmail.com
 
+
     on_success: always  
     on_failure: always
   # slack: examinationgroup:FuqgTJO8oBOSwG6LPy3jyczZ
