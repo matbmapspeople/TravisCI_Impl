@@ -27,13 +27,14 @@ describe("Sum test", () => {
   });
 })
 
-describe("Multiplication test" , () => {
-  test('By multypling 5 and 678 we should get 3390', ()=> {
+describe("Multiplication test", () => {
+  test('By multypling 5 and 678 we should get 3390', () => {
     expect(mathOperations.mult(5, 678)).toBe(3390)
-})});
-
-describe("Difference test" , () => {
-  test('5 - 2 should be 3', () => {
-    expect(mathOperations.diff(5, 2)).toBe(3)
   })
 });
+
+describe("Diff test", () => {
+  test('By 2 minu 1 I shopuld get 1', () => {
+    expect(mathOperations.diff(2,1)).toBe(1)
+  })
+})
