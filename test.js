@@ -32,7 +32,7 @@ describe("Multiplication test" , () => {
     expect(mathOperations.mult(5, 678)).toBe(3390)
 })});
 
-descibe("Difference test" , () => {
+describe("Difference test" , () => {
   test('5 - 2 should be 3', () => {
     expect(mathOperations.diff(5, 2)).toBe(3)
   })
