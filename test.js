@@ -33,8 +33,3 @@ describe("Multiplication test", () => {
   })
 });
 
-describe("Diff test", () => {
-  test('By 2 minu 1 I shopuld get 1', () => {
-    expect(mathOperations.diff(2,1)).toBe(1)
-  })
-})
