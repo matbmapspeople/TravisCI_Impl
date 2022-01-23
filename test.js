@@ -39,3 +39,8 @@ describe("Multiplication test 1", () => {
   })
 });
 
+describe("Multiplication test 2", () => {
+  test('By multypling 4 and 4 we should get 16', () => {
+    expect(mathOperations.mult(4, 4)).toBe(16)
+  })
+});
