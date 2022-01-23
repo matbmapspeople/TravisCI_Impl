@@ -44,3 +44,9 @@ describe("Diff test 2", () => {
     expect(mathOperations.diff(3,1)).toBe(2)
   })
 })
+
+describe("Diff test 3", () => {
+  test('By 4 minus 1 I shopuld get 3', () => {
+    expect(mathOperations.diff(4,1)).toBe(3)
+  })
+})
