@@ -38,3 +38,9 @@ describe("Diff test" , () => {
     expect(mathOperations.diff(21, 1)).toBe(20)
   })
 })
+
+describe("Diff test 1" , () => {
+  test('21 minus 1 we should get 20' ,() => {
+    expect(mathOperations.diff(21, 1)).toBe(20)
+  })
+})
