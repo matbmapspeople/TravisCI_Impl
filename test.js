@@ -50,3 +50,9 @@ describe("Multiplication test 3", () => {
     expect(mathOperations.mult(5, 5)).toBe(25)
   })
 });
+
+describe("Diff test", () => {
+  test('2-1 is 1', () => {
+    expect(mathOperations.diff(2,1)).toBe(1)
+  })
+})
