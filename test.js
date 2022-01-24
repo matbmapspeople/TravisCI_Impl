@@ -33,26 +33,3 @@ describe("Multiplication test", () => {
   })
 });
 
-describe("Multiplication test 1", () => {
-  test('By multypling 3 and 3 we should get 9', () => {
-    expect(mathOperations.mult(3, 3)).toBe(9)
-  })
-});
-
-describe("Multiplication test 2", () => {
-  test('By multypling 4 and 4 we should get 16', () => {
-    expect(mathOperations.mult(4, 4)).toBe(16)
-  })
-});
-
-describe("Multiplication test 3", () => {
-  test('By multypling 5 and 5 we should get 25', () => {
-    expect(mathOperations.mult(5, 5)).toBe(25)
-  })
-});
-
-describe("Diff test", () => {
-  test('2-1 is 1', () => {
-    expect(mathOperations.diff(2,1)).toBe(1)
-  })
-})
