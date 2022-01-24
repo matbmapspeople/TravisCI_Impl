@@ -12,6 +12,7 @@ notifications:
   email:  
     recipients:  
     - mateusz.banaszak5303@gmail.com
+    - chwa@ucn.dk
 
 
     on_success: always  
