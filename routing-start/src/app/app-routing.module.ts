@@ -3,7 +3,6 @@ import { Routes, RouterModule, Router } from "@angular/router";
 import { AuthGuard } from "./auth-guard.service";
 import { ErrorPageComponent } from "./error-page/error-page.component";
 import { HomeComponent } from "./home/home.component";
-import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { CanDeactivateGuard } from "./servers/edit-server/can-deactivate-guard.service";
 import { EditServerComponent } from "./servers/edit-server/edit-server.component";
 import { ServerResolver } from "./servers/server/server-resolver.service";
@@ -32,7 +31,7 @@ const appRoutes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(appRoutes)
+        RouterModule.forRoot(appRoutes, {useHash: true})
     ],
     exports: [RouterModule]
 })
