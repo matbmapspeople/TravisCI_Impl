@@ -2,6 +2,6 @@
   margin-top: 30px;
 }
 
-.ng-invalid {
-  border: 1px solid;
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
 }
